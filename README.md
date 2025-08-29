@@ -25,13 +25,21 @@ Data is stored in memory (Python list) for simplicity — no database required.
 ---
 
 ## 📦 Installation
-
-### 1. Clone the Repository
-```bash
-git clone https://github.com/Muhammad3055/student-api.git
-cd student-api
-##install virtual setup
+## install virtual setup
 python -m venv .venv
 ## for activate
 .venv\Scripts\activate
+## then for fast-api setup
+pip install fastapi uvicorn
+## for pydantic
+pip install pydantic
+## make main.py and paste the code there 
+main.py
+## Run api
+uvicorn main:app --reload
+## after paste your request url in postman to verify and use Get,Post,Put,delete api functions
+## install or run in postman
+https://www.postman.com/
+
+
 
