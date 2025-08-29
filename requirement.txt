@@ -1,0 +1,5 @@
+-requiremnets
+fast-api uvicorn
+pydantic
+virtual environment
+postman 
